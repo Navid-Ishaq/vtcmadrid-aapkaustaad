@@ -1,0 +1,22 @@
+.language-poster {
+  width:min(100%,680px);
+  margin:45px auto;
+  aspect-ratio:0.92;
+  overflow:hidden;
+  border-radius:24px;
+  border:1px solid #c7d7ed;
+  box-shadow:0 20px 50px #17315a20;
+  background:#edf4ff;
+}
+.language-poster img {
+  display:block;
+  width:100%;
+  height:auto;
+}
+.poster-ur { aspect-ratio:1.14; }
+@media(max-width:700px) {
+  .language-poster {
+    margin:28px auto;
+    border-radius:16px;
+  }
+}
